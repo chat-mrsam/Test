@@ -1,0 +1,123 @@
+body{
+    background-color: beige;
+}
+
+div{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family:fantasy;
+}
+
+
+
+.dvMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: aqua; */
+    background-image: url("blackboard.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 350px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.dvTicTacToe{
+    display:flex;
+    flex-wrap: wrap;
+    width: 737px;
+    height: 735px;
+}
+
+.dvTicTacToe div{
+    color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.dvTicTacToe div:nth-child(even){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(odd){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(9n){
+    background-color: transparent;
+    border: none;
+}
+
+/* hide bottom row of dvTicTacToo */
+.dvTicTacToe div:nth-child(n+72){
+    background-color: transparent;
+    border: none;
+}
+
+/* change the color of the first 8 dvtictactoe cells to black if the previous cell is white */
+/* .dvTicTacToe div:nth-child(1), .dvTicTacToe div:nth-child(3), .dvTicTacToe div:nth-child(5), .dvTicTacToe div:nth-child(7){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(2), .dvTicTacToe div:nth-child(4), .dvTicTacToe div:nth-child(6), .dvTicTacToe div:nth-child(8){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(9), .dvTicTacToe div:nth-child(11), .dvTicTacToe div:nth-child(13), .dvTicTacToe div:nth-child(15){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(10), .dvTicTacToe div:nth-child(12), .dvTicTacToe div:nth-child(14), .dvTicTacToe div:nth-child(16){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(17), .dvTicTacToe div:nth-child(19), .dvTicTacToe div:nth-child(21), .dvTicTacToe div:nth-child(23){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(18), .dvTicTacToe div:nth-child(20), .dvTicTacToe div:nth-child(22), .dvTicTacToe div:nth-child(24){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(25), .dvTicTacToe div:nth-child(27), .dvTicTacToe div:nth-child(29), .dvTicTacToe div:nth-child(31){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(26), .dvTicTacToe div:nth-child(28), .dvTicTacToe div:nth-child(30), .dvTicTacToe div:nth-child(32){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(33), .dvTicTacToe div:nth-child(35), .dvTicTacToe div:nth-child(37), .dvTicTacToe div:nth-child(39){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(34), .dvTicTacToe div:nth-child(36), .dvTicTacToe div:nth-child(38), .dvTicTacToe div:nth-child(40){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(41), .dvTicTacToe div:nth-child(43), .dvTicTacToe div:nth-child(45), .dvTicTacToe div:nth-child(47){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(42), .dvTicTacToe div:nth-child(44), .dvTicTacToe div:nth-child(46), .dvTicTacToe div:nth-child(48){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(49), .dvTicTacToe div:nth-child(51), .dvTicTacToe div:nth-child(53), .dvTicTacToe div:nth-child(55){
+    background-color: black;
+}
+
+.dvTicTacToe div:nth-child(50), .dvTicTacToe div:nth-child(52), .dvTicTacToe div:nth-child(54), .dvTicTacToe div:nth-child(56){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(57), .dvTicTacToe div:nth-child(59), .dvTicTacToe div:nth-child(61), .dvTicTacToe div:nth-child(63){
+    background-color: white;
+}
+
+.dvTicTacToe div:nth-child(58), .dvTicTacToe div:nth-child(60), .dvTicTacToe div:nth-child(62), .dvTicTacToe div:nth-child(64){
+    background-color: black;
+} */
